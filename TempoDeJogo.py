@@ -9,7 +9,7 @@ if HoraInicio < HoraFinal:
 if MinIncio < MinFinal:
     MinTotal = MinFinal - MinIncio
 if MinFinal < MinIncio:
-    MinTotal = MinIncio - MinFinal
+    MinTotal = MinIncio - MinFinal 
 if HoraInicio > HoraFinal: 
     HoraTotal = (24 - HoraInicio) + HoraFinal
 
