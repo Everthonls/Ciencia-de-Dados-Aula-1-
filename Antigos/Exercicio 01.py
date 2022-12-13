@@ -15,4 +15,4 @@ num5 = int(input("Digite o quinto valor:"))
 if num5 % 2 == 0:
     total = total + 1
 
-print("Essa é a quantidade de números pares:",total)
+print("Essa é a quantidade de números pares:",total) 
