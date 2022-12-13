@@ -13,6 +13,7 @@ print("6 - Render Conta Bonificada")
 
 escolha = int(input("digite a opção desejada:"))
 while escolha > 0:
+        
     if escolha == 1:
         # criar uma conta
         print("Criando Conta...")
@@ -68,3 +69,5 @@ while escolha > 0:
         else: 
             print("A conta indicada não é bonificada ou não existe, tente novamente!")
     escolha = int(input("digite a opção desejada:"))
+    
+print("A equipe do banco UABJ agradece seu contato!")
